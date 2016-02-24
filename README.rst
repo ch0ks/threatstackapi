@@ -2,29 +2,35 @@
 Threat Stack Command Line Tool
 ================================
 
-The purpose of this script is to connect to the Threat Stack infrastructure and be able to manipulate the information contained.
+This command line tool allows the user to connect to a Threat Stack account and retrieve the information contained
+within an account. It is important to note that this script was not created  or is supported by Threat Stack.
+Use under your own risk.
 
 Usage
 -----
 
 .. code-block:: sh
 
-    usage: tscli.py [-h]
+    usage: tscli.py [-h] [-g] [-i] [-p] [-o] [-l]
 
     Threat Stack Command Line Tool.
 
     optional arguments:
       -h, --help            show this help message and exit
-
-
+      -g, --list-agents     lists all the agents in the organization
+      -i, --list-alerts     lists all the agents in the organization
+      -p, --list-policies   lists all the agents in the organization
+      -o, --list-organizations
+                            lists all the agents in the organization
+      -l, --list-logs       lists all the agents in the organization
 
 Quick Start
 -----------
-First, install the library and set a default region:
+First, install the libraries and set a default account:
 
 .. code-block:: sh
 
-    $ pip install configparser unirest
+    $ pip install configparser unirest urlib
 
 Set up the profiles and default regions (in e.g. ``~/.threatstack/config``):
 
@@ -37,6 +43,5 @@ Then, from a command prompt:
 
 .. code-block:: sh
 
-    $ ./tscli.py
-
+    $ ./tscli.py -h
 
