@@ -1,5 +1,5 @@
 #!/usr/bin/python
-__author__ = 'Adrian Puente Z. <apuente@medallia.com>'
+__author__ = 'Adrian Puente Z. <ch0ks _at_ hackarandas _dot_ com>'
 __company__ = 'Hackarandas Inc.'
 
 import os
