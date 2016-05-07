@@ -34,7 +34,7 @@ First, install the libraries and set a default account:
 
     $ pip install configparser unirest urlib
 
-Set up the profiles and default regions (in e.g. ``~/.threatstack/config``):
+Set up the config file with the authentication token in ``~/.threatstack/config``:
 
 .. code-block:: ini
 
