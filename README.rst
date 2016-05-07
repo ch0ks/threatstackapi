@@ -11,10 +11,10 @@ Usage
 
 .. code-block:: sh
 
-    usage: tscli.py [-h] [-g] [-i] [-p] [-o] [-l]
-
+    usage: tscli.py [-h] [-g] [-i] [-p] [-o] [-l] [-d]
+    
     Threat Stack Command Line Tool.
-
+    
     optional arguments:
       -h, --help            show this help message and exit
       -g, --list-agents     lists all the agents in the organization
@@ -23,6 +23,8 @@ Usage
       -o, --list-organizations
                             lists all the agents in the organization
       -l, --list-logs       lists all the agents in the organization
+      -d, --dump-policies   dumps all the policies in the organization into
+                            individual md files
 
 Quick Start
 -----------
